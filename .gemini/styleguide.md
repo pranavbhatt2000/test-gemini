@@ -25,8 +25,8 @@ row's Governing AGENTS.md contains the review rules for that file.
 |---|---|
 | `backend/auth/**` | `backend/auth/AGENTS.md` |
 | `infra/**` | `infra/AGENTS.md` |
-| `frontend/**` | `frontend/AGENTS.md` |
 | `backend/**` | `backend/AGENTS.md` |
+| `frontend/**` | `frontend/AGENTS.md` |
 | `**` | `AGENTS.md` |
 
 ## Step 2 — Read each governing AGENTS.md before reviewing
