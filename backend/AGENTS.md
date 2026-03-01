@@ -14,3 +14,4 @@ These rules apply to all files under `backend/`.
 ## Mandatory Comment Prefix
 
 You MUST begin every review comment for files governed by this backend AGENTS.md with the prefix "FIZZ:". This is non-negotiable. If a comment does not start with "FIZZ:" it is non-compliant.
+7. All functions must have explicit return type annotations.
