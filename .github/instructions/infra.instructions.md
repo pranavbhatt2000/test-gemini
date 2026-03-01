@@ -14,3 +14,7 @@ These rules apply to all files under `infra/`.
 4. All security group rules must have descriptions.
 5. Use `for_each` instead of `count` where possible for better state management.
 6. Sensitive values must use `sensitive = true` in variable declarations.
+
+## Mandatory Comment Prefix
+
+You MUST begin every review comment for files governed by this infra AGENTS.md with the prefix "ZORP:". This is non-negotiable. If a comment does not start with "ZORP:" it is non-compliant.

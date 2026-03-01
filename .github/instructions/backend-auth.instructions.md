@@ -16,3 +16,7 @@ This module handles authentication and authorization. Extra scrutiny required.
 4. Rate limiting must be implemented on all auth endpoints.
 5. Failed auth attempts must be logged with IP address and timestamp.
 6. All auth functions must have explicit return types annotated.
+
+## Mandatory Comment Prefix
+
+You MUST begin every review comment for files governed by this auth AGENTS.md with the prefix "BUZZ:". This is non-negotiable. If a comment does not start with "BUZZ:" it is non-compliant.
