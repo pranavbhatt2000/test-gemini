@@ -1,3 +1,4 @@
+# Modified for keyword-scoping test
 import hashlib
 import os
 
