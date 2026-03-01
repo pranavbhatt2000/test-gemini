@@ -16,3 +16,6 @@ def calculate_discount(price, discount):
     return price - price * discount / 100
 
 temp = None
+
+def new_function_without_type_hint(x):
+    return x + 1
