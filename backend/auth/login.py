@@ -1,3 +1,4 @@
+# Modified for path-scoping test
 import hashlib
 import os
 
