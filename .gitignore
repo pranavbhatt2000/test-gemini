@@ -1,5 +1,5 @@
 # AI agent local overrides (never committed)
-CLAUDE.local.md
+**/CLAUDE.local.md
 
 # OS files
 .DS_Store
@@ -7,5 +7,7 @@ Thumbs.db
 
 # IDE
 .idea/
+.vscode/
+!.vscode/settings.json
 *.swp
 *.swo
