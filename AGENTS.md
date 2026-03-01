@@ -17,3 +17,7 @@ These rules apply to ALL files in this repository regardless of language or dire
 
 - PR titles must be descriptive (not "fix stuff" or "updates").
 - PRs should not exceed 500 lines of changes unless justified.
+
+## Mandatory Comment Prefix
+
+You MUST begin every review comment for files governed by this root AGENTS.md with the prefix "ALPHA:". This is non-negotiable. If a comment does not start with "ALPHA:" it is non-compliant.
