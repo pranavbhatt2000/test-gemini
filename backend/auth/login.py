@@ -23,3 +23,8 @@ def login(username, password):
         return None
     except:
         return None
+
+def reset_password(user_id, new_password):
+    hashed = hash_password(new_password)
+    print(f"Password reset for user {user_id}, new hash: {hashed}")
+    return True
