@@ -13,9 +13,10 @@ These rules apply to all files under `infra/`.
 
 ## Resource Naming
 
-1. **Resource Naming**
-    - Use lowercase letters, numbers, and hyphens (`-`) for resource names. Avoid underscores and uppercase letters.
+1. **Resource Naming (GCP only)**
+    - For **GCP resources** (`google_*`), use lowercase letters, numbers, and hyphens (`-`) for resource names. Avoid underscores and uppercase letters.
     - Example: `resource "google_storage_bucket" "data_bucket" { name = "my-project-data-bucket" }`
+    - This convention does **not** apply to non-GCP providers (e.g., Grafana, Datadog). For those, follow the provider's own naming conventions — human-readable names are often preferred.
 
 ## Mandatory Comment Prefix
 
